@@ -1,7 +1,8 @@
 # 📊 가계구조대(SAVEWALLET)
 
 > React, TypeScript, REST API를 활용한 가계부 프로젝트<br />  
-> 수입과 지출을 기록, 수정, 삭제할 수 있고 수입, 지출 내역을 리스트와 달력, 차트로 확인할 수 있는 반응형 웹입니다.<br />
+> 수입과 지출을 기록, 수정, 삭제할 수 있고<br />  
+> 수입, 지출 내역을 리스트와 달력, 차트로 확인할 수 있는 반응형 웹입니다.<br />
 
 <br />
 
@@ -20,6 +21,9 @@
 | :----------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                 [안중후](https://github.com/hookor)                                                  |                                                 [김다슬](https://github.com/7581058)                                                  |                                                 [윤금엽](https://github.com/DevYBecca)                                                  |                                                 [이창휘](https://github.com/leechanghwi)                                                  |
 |                                                          캘린더 페이지                                                          |                                                        메인 페이지, 추가 페이지                                                         |                                                            차트 페이지                                                             |                                                            리스트 페이지                                                             |
+
+<br/>
+
 ## 📌 기술 스택
 
 ### Development
@@ -32,9 +36,11 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white)
 
 ### Library  
-![Recoil](https://img.shields.io/badge/Recoil-3578E5?style=flat&logo=Recoil&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white)
+![Recoil](https://img.shields.io/badge/Recoil-3578E5?style=flat&logo=Recoil&logoColor=white)
+![FullCalendar](https://img.shields.io/badge/FullCalendar-4285F4?style=flat&logo=GoogleCalendar&logoColor=white)
 ![Chartjs](https://img.shields.io/badge/Chartjs-FF6384?style=flat&logo=chartdotjs&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-007FFF?style=flat&logo=mui&logoColor=white)
 
 ### Enviroment  
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -49,6 +55,28 @@
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
 ![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=flat&logo=zoom&logoColor=white)
+
+<br />
+
+## 📌 프로젝트 테스트
+
+### clone project
+
+```bash
+$ git clone https://github.com/FEGROUP9/SAVEWALLET.git
+```
+
+### install npm
+
+```bash
+$ npm install
+```
+
+### start project
+
+```bash
+$ npm run dev
+```
 
 <br />
 
