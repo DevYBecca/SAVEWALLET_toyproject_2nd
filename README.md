@@ -1,53 +1,60 @@
-## 📌프로젝트 소개
+# 📊 가계구조대(SAVEWALLET)
 
-### 📊 가계구조대(SAVEWALLET)
+> React, TypeScript, REST API를 활용한 가계부 프로젝트<br />  
+> 수입과 지출을 기록, 수정, 삭제할 수 있고 수입, 지출 내역을 리스트와 달력, 차트로 확인할 수 있는 반응형 웹입니다.<br />
 
-REST API를 활용한 가계부 프로젝트로 수입과 지출을 기록,수정,삭제 할 수 있고 수입, 지출 내역을 리스트와 달력, 차트로 확인할 수 있는 반응형 웹입니다.
+<br />
 
-### 프로젝트 기간
+## 📌 프로젝트 소개
 
-2023년 7월 5일 ~ 2023년 7월 24일
+> **패스트캠퍼스 프론트엔드 개발 부트캠프 5기**<br />  
+> **개발 기간** : 2023.07.05 - 2023.07.24<br />  
+> **배포 링크** : **[SAVEWALLET](https://savewallet.netlify.app/)**<br />  
+> **Repository** : [SAVEWALLET](https://github.com/FEGROUP9/SAVEWALLET)<br />
 
-## 📌개발팀원 및 역할
+<br />
+
+## 📌개발 팀원 및 역할
 
 | <a href="https://github.com/hookor"><img src="https://avatars.githubusercontent.com/u/115582699?v=4" width=200px alt="안중후" /></a> | <a href="https://github.com/7581058"><img src="https://avatars.githubusercontent.com/u/100559990?v=4" width=200px alt="김다슬" /></a> | <a href="https://github.com/DevYBecca"><img src="https://avatars.githubusercontent.com/u/125433485?v=4" width=200px alt="윤금엽" /></a> | <a href="https://github.com/leechanghwi"><img src="https://avatars.githubusercontent.com/u/128275359?v=4" width=200px alt="이창휘" /></a> |
 | :----------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                 [안중후](https://github.com/hookor)                                                  |                                                 [김다슬](https://github.com/7581058)                                                  |                                                 [윤금엽](https://github.com/DevYBecca)                                                  |                                                 [이창휘](https://github.com/leechanghwi)                                                  |
-|                                                          캘린더 페이지 구현                                                          |                                                        메인, 추가 페이지 구현                                                         |                                                            차트 페이지 구현                                                             |                                                            리스트 페이지 구현                                                             |
+|                                                          캘린더 페이지                                                          |                                                        메인 페이지, 추가 페이지                                                         |                                                            차트 페이지                                                             |                                                            리스트 페이지                                                             |
+## 📌 기술 스택
 
-## 📌배포사이트
+### Development
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?style=flat&logo=styledcomponents&logoColor=white)
 
-[SAVEWALLET](https://savewallet.netlify.app/)
+### Config
+![npm](https://img.shields.io/badge/Npm-CB3837?style=flat&logo=npm&CB3837&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white)
 
-## 📌Stack
+### Library  
+![Recoil](https://img.shields.io/badge/Recoil-3578E5?style=flat&logo=Recoil&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white)
+![Chartjs](https://img.shields.io/badge/Chartjs-FF6384?style=flat&logo=chartdotjs&logoColor=white)
 
-Config  
-<img src="https://img.shields.io/badge/Npm-CB3837?style=flat&logo=npm&CB3837&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=Vite&logoColor=white"/>
+### Enviroment  
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/Github-181717?style=flat&logo=github&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat&logo=VisualStudioCode&logoColor=white)
 
-Development  
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/StyledComponents-DB7093?style=flat&logo=styledcomponents&logoColor=white"/>
+### Deployment  
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
 
-Library  
-<img src="https://img.shields.io/badge/Recoil-0075EB?style=flat&logo=&logoColor=white"/>
-<img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white"/> <img src="https://img.shields.io/badge/Chartjs-FF6384?style=flat&logo=chartdotjs&logoColor=white"/>
+### Cowork Tools  
+![Miro](https://img.shields.io/badge/Miro-050038?style=flat&logo=miro&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
+![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=flat&logo=zoom&logoColor=white)
 
-Enviroment  
-<img src="https://img.shields.io/badge/Github-181717?style=flat&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat&logo=VisualStudioCode&logoColor=white"/>
-
-Deployment  
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white"/>
-
-Cowork Tools  
-<img src="https://img.shields.io/badge/Miro-050038?style=flat&logo=miro&logoColor=white"/> <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=lack&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white"/>
+<br />
 
 ## 📌구현 페이지와 주요 기능
 
-**1️⃣ 메인페이지**
+**1️⃣ 메인 페이지**
 
 - 현재 로그인 중인 사용자의 이번 달 수입/지출 합계 조회
 - 현재 로그인 중인 사용자의 오늘 수입/지출 합계 조회
@@ -55,7 +62,7 @@ Cowork Tools
 - 메뉴 슬라이드에서 로그인 클릭 시 로그인 페이지로 이동
 - 메뉴 슬라이드에서 로그아웃 클릭 시 로그아웃
 
-**2️⃣ 수입/지출 입력페이지**
+**2️⃣ 수입/지출 입력 페이지**
 
 - 기록할 수입/지출 선택
 - 기록할 금액 입력
@@ -87,7 +94,7 @@ Cowork Tools
 - 기록된 카테고리 리스트 출력
 - 카테고리별 수입/지출 총액 출력
 - 각 카테고리 클릭 시 카테고리별 월별 서브차트 조회로 이동  
-  → 기록된 내역이 없는 월로 이동시 입력 페이지로 이동할 수 있도록 알림
+  - 기록된 내역이 없는 월로 이동시 입력 페이지로 이동할 수 있도록 알림
 
 **6️⃣ 서브차트 페이지**
 
@@ -100,6 +107,8 @@ Cowork Tools
 - 카카오 로그인 API를 통한 로그인
 - 메인 페이지로 돌아가기
 
+<br />
+
 ## 📌폴더 구조
 
 <details>
@@ -107,7 +116,7 @@ Cowork Tools
 <div markdown="1">
 
 ```
-📦
+📦 SAVEWALLET
 ├─ .eslintrc.cjs
 ├─ .gitignore
 ├─ .prettierrc
@@ -197,6 +206,8 @@ Cowork Tools
 </div>
 </details>
 
+<br />
+
 ## 📌구현 화면
 
 | 메인페이지(모바일)                            | 메인페이지(데스크탑)                           |
@@ -222,3 +233,15 @@ Cowork Tools
 | 서브차트 페이지(모바일)                           | 서브차트 페이지(데스크탑)                                 |
 | ------------------------------------------------- | --------------------------------------------------------- |
 | ![image](./src/assets/readme/mobile_subchart.png) | ![image](./src/assets/readme/desktop-signin-subchart.png) |
+
+<br />
+
+## 📌 담당 페이지 및 기능 구현
+
+### 차트 페이지 & 서브차트 페이지
+
+#### 1.
+
+<br />
+
+## 📌 프로젝트 회고
