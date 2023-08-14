@@ -38,7 +38,9 @@
 
 ![Recoil](https://img.shields.io/badge/Recoil-3578E5?style=flat&logo=Recoil&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white)
+![FullCalendar](https://img.shields.io/badge/FullCalendar-4285F4?style=flat&logo=GoogleCalendar&logoColor=white)
 ![Chartjs](https://img.shields.io/badge/Chartjs-FF6384?style=flat&logo=chartdotjs&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-007FFF?style=flat&logo=mui&logoColor=white)
 
 ### Enviroment
 
@@ -56,6 +58,28 @@
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
 ![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=flat&logo=zoom&logoColor=white)
+
+<br />
+
+## 📌 프로젝트 테스트
+
+### clone project
+
+```bash
+$ git clone https://github.com/FEGROUP9/SAVEWALLET.git
+```
+
+### install npm
+
+```bash
+$ npm install
+```
+
+### start project
+
+```bash
+$ npm run dev
+```
 
 <br />
 
