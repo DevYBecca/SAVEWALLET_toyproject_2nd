@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Header, Footer } from 'src/components'
@@ -172,7 +173,7 @@ export const Chart = () => {
   }, [chartFilter, selectedDate])
 
   return (
-    <>
+    <React.Fragment>
       <Header />
       <Wrapper>
         <ChartTitle>카테고리별 수입·지출</ChartTitle>
@@ -202,6 +203,6 @@ export const Chart = () => {
         />
       </Wrapper>
       <Footer />
-    </>
+    </React.Fragment>
   )
 }
