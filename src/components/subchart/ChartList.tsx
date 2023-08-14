@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 
 // 차트 하단에 출력할 ChartList에서 사용하는 props type 정의
@@ -63,7 +64,7 @@ export const ChartList: React.FC<ChartListProps> = ({ categoryExpenses }) => {
   const sortedExpenses = categoryExpenses.sort(compareDates)
 
   return (
-    <>
+    <React.Fragment>
       <ChartListWrapper>
         <ChartTable>
           <thead>
@@ -98,6 +99,6 @@ export const ChartList: React.FC<ChartListProps> = ({ categoryExpenses }) => {
           </tbody>
         </ChartTable>
       </ChartListWrapper>
-    </>
+    </React.Fragment>
   )
 }

@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect } from 'react'
 import { Header, Footer } from 'src/components'
 import {
@@ -157,7 +158,7 @@ export const SubChart = () => {
   }, [selectedCategory])
 
   return (
-    <>
+    <React.Fragment>
       <Header />
       <Wrapper>
         <ChartTitle>월별 수입 및 지출</ChartTitle>
@@ -195,6 +196,6 @@ export const SubChart = () => {
         <ChartList categoryExpenses={categoryExpenses} />
       </Wrapper>
       <Footer />
-    </>
+    </React.Fragment>
   )
 }

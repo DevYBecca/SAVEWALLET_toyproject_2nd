@@ -1,3 +1,4 @@
+import React from 'react'
 import { ChevronRightIcon } from '@heroicons/react/outline'
 import styled from 'styled-components'
 
@@ -68,7 +69,7 @@ export const ChartList: React.FC<ChartListProps> = ({
   handleShowSubChart
 }) => {
   return (
-    <>
+    <React.Fragment>
       <ChartListWrapper>
         <ul>
           {chartFilter === 'income' && (
@@ -94,6 +95,6 @@ export const ChartList: React.FC<ChartListProps> = ({
             ))}
         </ul>
       </ChartListWrapper>
-    </>
+    </React.Fragment>
   )
 }

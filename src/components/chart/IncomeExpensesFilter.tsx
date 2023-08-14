@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 
 // 수입, 지출 Filtering을 통해 차트를 출력할
@@ -35,7 +36,7 @@ export const IncomeExpensesFilter: React.FC<IncomeExpensesFilterProps> = ({
   setChartFilter
 }) => {
   return (
-    <>
+    <React.Fragment>
       <FilterWrapper>
         <IncomesOptions>
           <input
@@ -60,6 +61,6 @@ export const IncomeExpensesFilter: React.FC<IncomeExpensesFilterProps> = ({
           <label htmlFor="expenses">지출</label>
         </ExpensesOptions>
       </FilterWrapper>
-    </>
+    </React.Fragment>
   )
 }
