@@ -262,7 +262,10 @@ $npm install -D @types/chart.js // TypeScript에서 사용하기 위한 타입 �
 
 > 차트를 출력할 컴포넌트에서 `ChartOptions`와 `ChartData` 객체로 차트의 속성과 데이터들을 지정해줘야 했는데 범례(legend) 속성이나 데이터 레이블 속성을 커스텀 해주고 싶을 때, 차트를 스타일링 해주고 싶을 때 등의 상황에 대한 공식 문서의 설명이 부족해서 검색이 많이 필요했다. 그래서 주석으로 설명을 최대한 꼼꼼하게 작성하게 되었다.<br />
 
-<!-- 여기에 img 넣기 -->
+<img src="https://github.com/DevYBecca/SAVEWALLET_toyproject_2nd/assets/125433485/8ff86852-be97-4d53-8fd5-73c604c94c8d" height=400 />
+<img src="https://github.com/DevYBecca/SAVEWALLET_toyproject_2nd/assets/125433485/3b0de6bf-4dbe-4d75-9b4e-e24c0766ef26" height=400 />
+
+<br />
 
 > 그리고 return문에서 출력하는 `차트 컴포넌트의 data 속성에서 타입 에러`가 발생했는데 `react-chartjs-2에서 사용하는 ChartData, ChartOptions 타입이 Chart.js 라이브러리에서 정의된
 타입과 일치하지 않아 발생하는 에러`였다. 그래서 TypeScript에서 Chart.js 라이브러리의 타입을 선언해주기 위해 `chart-types.d.ts` 파일을 생성해주었더니 에러가 발생하지 않았다.<br />
@@ -295,7 +298,7 @@ declare module 'chart.js' {
 
 > Chart 컴포넌트와 SubChart 컴포넌트에서 차트를 출력하는 로직이 주요 내용이 되도록 `내역을 조회하는 기간을 선택하는 컴포넌트 및 내역을 출력해주는 리스트 같은 부가적인 요소들을 components 파일에 분리`했다. 그리고 `ChartHooks.ts 파일에 Chart 컴포넌트에서 사용하는 함수 및 SubChart 컴포넌트로 넘겨줄 state들을 업데이트하는 함수들을 분리`해주었다. 그 결과 Chart와 SubChart 컴포넌트의 코드 가독성을 높일 수 있었던 것 같다. <br />
 
-<!-- 여기에 img 넣기 -->
+<img src="https://github.com/DevYBecca/SAVEWALLET_toyproject_2nd/assets/125433485/0574a4bc-e33d-42ca-9037-45a636c3106e" height=400 />
 
 <br />
 
